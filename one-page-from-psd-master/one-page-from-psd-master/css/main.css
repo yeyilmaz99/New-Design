@@ -1,0 +1,716 @@
+html{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    direction:ltr;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    background-color:#FFF;
+    font-family: 'Montserrat', sans-serif;    color:#646464;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    text-align:center;
+    text-decoration:none;
+    overflow-x:hidden;
+}
+@media only screen and (min-width:1200px){ /* XL */
+    body{
+        font-size:14px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+    body{
+        font-size:13px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+    body{
+        font-size:12px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+    body{
+        font-size:12px;
+    }
+}
+@media only screen and (max-width:574px){ /* XS */
+    body{
+        font-size:12px;
+    }
+}
+#full-page-area{
+    overflow-x:hidden;
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:100%;
+    min-height:100%;
+    max-height:100%;
+    margin:0 auto;
+    padding:0;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    border:none;
+    outline:none;
+    background-color:#FFF;
+}
+/*COVER ALANI BASLANGIÇ*/
+#cover{
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+}
+#cover a  {
+    font-weight: bolder;
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    text-transform: uppercase;
+}
+#cover .active  {
+    color: #2ecbc6;
+}
+.navbar{
+    width: 100%;
+    max-width:100%;
+    min-width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.area {
+    position:relative;
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+    padding: 50px;
+    text-align: left;
+    float: right;
+}
+.area .btn-primary {
+    background-color: #10c9c3;
+    color: #FFFFFF;
+    border: none;
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.area .btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #10c9c3;
+    border: none;
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media only screen and (min-width:1200px){ /* XL */
+    .area h1 {
+        font-size: 29pt;
+        font-weight: bold;
+    }
+    .area .btn-primary {
+        font-size: 10pt;
+        padding: 10px 25px 10px 25px;
+    }
+
+
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+    .area h1 {
+        font-size: 22pt;
+        font-weight: bold;
+    }
+    .area .btn-primary {
+        font-size: 10pt;
+        padding: 10px 25px 10px 25px;
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+    .area h1 {
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    .area .btn-primary {
+        font-size: 10pt;
+        padding: 10px 25px 10px 25px;
+    }
+
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+    .area h1 {
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .area .btn-primary {
+        font-size: 9pt;
+        padding: 10px 25px 10px 25px;
+    }
+
+}
+@media only screen and (max-width:574px){ /* XS */
+    .area h1 {
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    .area p {
+        font-size: 8pt;
+    }
+    .area .btn-primary {
+        font-size: 8pt;
+        padding: 10px 25px 10px 25px;
+    }
+
+
+}
+/*COVER ALANI SONU*/
+
+/*ABOUT ALANI BAŞI*/
+#aboutUs{
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    float: top;
+    align-self: center;
+    align-items: center;
+    margin: 50px ;
+}
+#aboutUs .container-fluid{
+    width: 75%;
+    min-width: 75%;
+    max-width: 75%;
+    padding: 50px;
+}
+#aboutUs h2{
+    font-weight: 800;
+}
+/*ABOUT ALANI SONU*/
+
+/*SKILLS ALANI BASI*/
+#skills{
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    float: top;
+    align-self: center;
+    align-items: center;
+    overflow: hidden;
+}
+#skills .left-box {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding:25% 10% 25% 10%;
+    margin: 25px auto;
+    text-align: left;
+}
+#skills .right-box {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding:25% 10% 25% 10%;
+    margin: 25px auto;
+    text-align: left;
+}
+#skills h3{
+    padding-bottom: 5%;
+    font-weight: 800;
+}
+#skills p{
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-weight: 600;
+    font-size: 10pt;
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+}
+#skills .progress {
+    margin-bottom: 25px;
+    height: 5px;
+
+
+}
+#skills .progress .bg-success{
+    background-color: #10c9c3!important;
+}
+/*SKILLS ALANI SONU*/
+
+/*NUMBERS ALANI BAŞI*/
+#numbers{
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    float: top;
+    align-self: center;
+    align-items: center;
+    background-color: #10c9c3;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 9pt;
+    padding: 50px;
+    text-align: left;
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+}
+#numbers .row{
+    align-items: center;
+    padding: 5px 0 5px 0;
+}
+#numbers .table{
+    color:#FFFFFF;
+}
+#numbers .table{
+    color:#FFFFFF;
+}
+#numbers .icon {
+    padding-right: 5px;
+    margin: 0 auto;
+    text-align: right;
+    vertical-align: center;
+
+}
+#numbers .col-sm-10{
+    padding: 0;
+    margin: 0 auto;
+    white-space:nowrap;
+}
+/*NUMBERS ALANI BAŞI*/
+
+/*WORK ALANI BAŞI*/
+#work{
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    float: top;
+}
+@media only screen and (min-width:1200px){ /* XL */
+    #work .col-sm-3{
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+    #work .col-sm-3{
+        height: 248px;
+        width: 248px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+    #work .col-sm-3{
+        height: 192px;
+        width: 192px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+    }
+
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+    #work .col-sm-3{
+        height: 144px;
+        width: 144px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+    }
+
+}
+@media only screen and (max-width:574px){ /* XS */
+    #work .col-sm-3{
+        height: 100px;
+        width: 100px;
+        margin: 5px auto;
+        overflow: hidden;
+    }
+
+
+}
+#work .btn-primary{
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height: 200px;
+    font-weight: 800;
+    margin: 0 auto;
+    float: top;
+    background-color: #f5f5f5!important;
+    color: #8e8e8e;
+    border: none;
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+
+}
+/*WORK ALANI SONU*/
+
+/*WORK-PROCESS ALANI BAŞI*/
+#work-process{
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    float: top;
+    padding-top: 20px;
+
+
+}
+#work-process h3{
+    font-weight: 800;
+}
+#work-process .col {
+    width: 100%;
+    padding: 25px 0 15px 0;
+    align-items: center;
+}
+@media only screen and (min-width:1200px){ /* XL */
+    #work-process .video {
+        margin: auto;
+        width: 85%;
+        height: 85%;
+        align-self: center;
+        overflow: hidden;
+   }
+    #work-process iframe{
+        width: 1100px;
+        height: 536px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+    #work-process .video {
+        margin: auto;
+        width: 95%;
+        height: 95%;
+        align-self: center;
+        overflow: hidden;
+    }
+    #work-process iframe{
+        width: 950px;
+        height: 463px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+    #work-process .video {
+        margin: auto;
+        width: 95%;
+        height: 95%;
+        align-self: center;
+        overflow: hidden;
+    }
+    #work-process iframe{
+        width: 750px;
+        height: 366px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+    #work-process .video {
+        margin: auto;
+        width: 95%;
+        height: 95%;
+        align-self: center;
+        overflow: hidden;
+    }
+    #work-process iframe{
+        width: 550px;
+        height: 268px;
+    }
+
+}
+@media only screen and (max-width:574px){ /* XS */
+    #work-process .video {
+        margin: auto;
+        width: 95%;
+        height: 95%;
+        align-self: center;
+        overflow: hidden;
+    }
+    #work-process iframe{
+        width: 450px;
+        height: 220px;
+    }
+}
+/*WORK-PROCESS ALANI SONU*/
+
+/*SERVICES ALANI BASI*/
+#services{
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    float: top;
+    padding: 75px 0 75px 0;
+    background-color: #f5f5f5;
+}
+#services .col-sm-3{
+    padding-bottom: 20px;
+}
+#services .baslik{
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 800;
+}
+/*SERVICES ALANI BASI*/
+
+/*TESTIMONİALS ALANI BASI*/
+#testimonials{
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    float: top;
+    background-color: #10c9c3;
+}
+#testimonials h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+#testimonials h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #8fbc54;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+#testimonials .row{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+#testimonials .col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+#testimonials .carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+}
+#testimonials .carousel .item {
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+}
+#testimonials .carousel .testimonial {
+    padding: 30px 0 10px;
+}
+#testimonials .carousel .overview {
+    font-style: italic;
+}
+#testimonials .carousel .overview b {
+    text-transform: uppercase;
+    color: white;
+}
+#testimonials .carousel .carousel-control {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    background: none;
+}
+#testimonials .carousel-control i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+}
+#testimonials .carousel .carousel-indicators {
+    bottom: 0;
+}
+#testimonials .carousel-indicators li, .carousel-indicators li.active {
+    width: 20px;
+    height: 1px;
+    margin: 3px 3px;
+    border-radius: 50%;
+}
+#testimonials .carousel-indicators li {
+    background: #999;
+    border-color: transparent;
+}
+#testimonials .carousel-indicators li.active {
+    background: #555;
+}
+/*TESTIMONİALS ALANI SONU*/
+
+/*CLİENTS ALANI BAŞI*/
+#clients {
+    padding: 40px 0 40px 0;
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    float: top;
+}
+/*CLİENTS ALANI SONU*/
+
+/*CONTACT ALANI BASI*/
+#contact {
+    padding: 40px 0 40px 0;
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    float: top;
+    background-color: #f5f5f5;
+}
+#contact .row{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+}
+#contact .form-row{
+    padding: 5px 0 5px 0;
+}
+#contact textarea {
+    resize: none;
+    height: 200px;
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+    #contact .btn-primary {
+        font-size: medium;
+    }
+    #contact .btn-primary:hover {
+        font-size: medium;
+    }
+
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+    #contact .btn-primary {
+        font-size: small;
+    }
+    #contact .btn-primary:hover {
+        font-size: small;
+    }
+
+}
+@media only screen and (max-width:574px){ /* XS */
+    #contact textarea {
+        resize: none;
+        height: 100px;
+    }
+    #contact .btn-primary {
+        font-size: x-small;
+    }
+    #contact .btn-primary:hover {
+        font-size: x-small;
+    }
+
+
+}
+#contact .btn-primary {
+    background-color: #10c9c3;
+    color: #FFFFFF;
+    border: none;
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    white-space: nowrap;
+}
+#contact .btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #10c9c3;
+    border: none;
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    white-space: nowrap;
+
+}
+/*CONTACT ALANI SONU*/
+
+/*FOOTER BASI*/
+#footer {
+    padding: 40px 0 40px 0;
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    margin: 0 auto;
+    float: top;
+    background-color: #141414;
+    color: white;
+}
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/*FOOTER SONU*/
+
+
